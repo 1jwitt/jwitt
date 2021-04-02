@@ -1,0 +1,39 @@
+
+
+
+
+/* ********************Begin styles*************** */
+body {
+    background-color: #e4fbff;
+    margin: 0;
+    /* other colors
+        #b8b5ff
+        #7868e6
+        #7868e6 */
+}
+
+
+
+.top-container {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    display: inline-block;    
+    
+}
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    
+    
+    
+    /* float: center; */
+}
+
+.bottom-container {
+    height: 200px;
+    width: 200px;
+    
+    
+}
