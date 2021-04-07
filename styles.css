@@ -12,61 +12,98 @@ body {
     /* other colors
         #b8b5ff
         #7868e6
-        #7868e6 */
+         */
 }
 
 h1 {
     font-family: 'Sacramento', cursive;
-    font-size: 40px;
+    font-size: 5rem;
+    color: #376292;
+    margin-bottom: 20px;
+    
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #376292;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #5e82ac;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #5e82ac;
+}
+
+br {
+    height: 1px;
+}
+
+p {
+    /* position: relative;
+    width: 80%; */
+    margin: 10PX 100PX 10PX 100PX;
+    color:;
+    font-weight: normal;
+}
+
+a {
+    color: #5e82ac;
+}
 
 .top-container {
     /* height: 200px;
     width: 200px; */
     padding: 20px;
     display: inline-block;
-    margin-top: 60px;    
+    margin-top: 40px;    
     
 }
 
 .p-1 {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    font-size: 1.3em;
 }
 
 .bottom-cloud {   
-    position: absolute;
-    top: 250PX;
+    position: relative;
+    bottom: 70PX;
+    width: 200px;
+    right: 250px;
 }
 
 .top-cloud {   
     position: relative;
-    top: 0;
-    left: 200px;
+    top: 20px;
+    left: 250px;
+    width: 200px;
     /* left: 100px; */
     
 }
+
+.mountain {
+    position: relative;
+    bottom: 50px;
+}
+/* End top section  **************/
+/* Middle Section ****************/
 .middle-container {
     padding: 20px;
     display: inline-block;
-    margin-top: 60px;    
-    /* height: 200px;
+    margin-top: 20px;    
+}
+.profile-pic {
     width: 200px;
-    border */
-    
-    
-    
-    /* float: center; */
+    border-radius: 50%;   
 }
 
+.p-profile {
+    margin-bottom: 40px;
+}
+/* End Middle section **************/
 .bottom-container {
     padding: 20px;
     display: inline-block;
@@ -75,4 +112,8 @@ h3 {
     width: 200px;
      */
     
+}
+
+.skill-icon {
+    width:100px;
 }
